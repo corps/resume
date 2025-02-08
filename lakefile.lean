@@ -14,9 +14,9 @@ require mathlib from git
 require Parser from git
   "https://github.com/fgdorais/lean4-parser" @ "main"
 
-@[default_target]
 lean_lib «Resume» where
   -- add any library configuration options here
 
+@[default_target]
 lean_exe «resume» where
   root := `Main
