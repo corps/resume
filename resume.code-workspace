@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../.elan/toolchains/leanprover--lean4---v4.17.0-rc1/src/lean"
+		}
+	],
+	"settings": {}
+}
