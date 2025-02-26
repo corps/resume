@@ -11,11 +11,7 @@ package «resume» where
 require mathlib from git
   "https://github.com/leanprover-community/mathlib4.git"
 
-require Parser from git
-  "https://github.com/fgdorais/lean4-parser" @ "main"
-
-lean_lib «Resume» where
-  -- add any library configuration options here
+require hakken from "../hakken"
 
 @[default_target]
 lean_exe «resume» where
